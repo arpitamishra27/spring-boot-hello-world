@@ -16,14 +16,12 @@ This project demonstrates the creation of a Hello World REST API using Spring Bo
 ### Running the Application
 
 1. Clone the repository:
-   bash
 
    git clone <https://github.com/arpitamishra27/spring-boot-hello-world.git>
 
 2. Navigate to the project directory:
 
- bash
- cd helloworld-springboot
+   cd helloworld-springboot
 
 3. Run the application:
     mvn spring-boot:run
@@ -31,10 +29,16 @@ This project demonstrates the creation of a Hello World REST API using Spring Bo
 The application will start, and you can access the Hello World API at http://localhost:8080/welcome.
 
 ### Endpoints
-/welcome: Returns a simple "Hello World!!!" message.
+/welcome: Returns a simple "Hello World!!!" message. 
+
+
 /welcome-with-object: Returns a JSON response with a message.
+
+
 /welcome-with-parameter/name/{name}: Returns a personalized greeting based on the provided name.
 
 ### Live Reload
-Enable Live Reload for automatic application restart and browser refresh during development. You can use browser extensions available at livereload.com/extensions.
+Enable Live Reload for automatic application restart and browser refresh during development. 
+
+You can use browser extensions available at livereload.com/extensions.
 
